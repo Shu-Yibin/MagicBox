@@ -21,5 +21,5 @@ fi
 
 rm MagicBox_${archname}_linux
 
-curl -s https://api.github.com/repos/srcrs/magicbox/releases/latest | grep browser_download_url | grep linux | grep ${archname} | cut -d'"' -f4 | wget -i -
+curl -s https://api.github.com/repos/Shu-Yibin/magicbox/releases/latest | grep browser_download_url | grep linux | grep ${archname} | cut -d'"' -f4 | wget -i -
 chmod +x MagicBox_${archname}_linux
